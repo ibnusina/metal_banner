@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		16DA0A1F2F3519D400B12B6D /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 16DA0A1E2F3519D400B12B6D /* CachedAsyncImage */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		16DA0A0D2F350D7800B12B6D /* MetalBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -27,7 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16DA0A1F2F3519D400B12B6D /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +65,6 @@
 			);
 			name = MetalBanner;
 			packageProductDependencies = (
-				16DA0A1E2F3519D400B12B6D /* CachedAsyncImage */,
 			);
 			productName = MetalBanner;
 			productReference = 16DA0A0D2F350D7800B12B6D /* MetalBanner.app */;
@@ -101,7 +95,6 @@
 			mainGroup = 16DA0A042F350D7800B12B6D;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				16DA0A1D2F3519D400B12B6D /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 16DA0A0E2F350D7800B12B6D /* Products */;
@@ -341,25 +334,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		16DA0A1D2F3519D400B12B6D /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		16DA0A1E2F3519D400B12B6D /* CachedAsyncImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 16DA0A1D2F3519D400B12B6D /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
-			productName = CachedAsyncImage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 16DA0A052F350D7800B12B6D /* Project object */;
 }
