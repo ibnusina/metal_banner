@@ -1,3 +1,3 @@
 # Preview
+https://github.com/user-attachments/assets/b2e106d0-1c13-43bf-b74f-f0906a3782e8
 
-<video src='https://raw.githubusercontent.com/ibnusina/metal_banner/main/preview.mov' width=180><video>
